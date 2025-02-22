@@ -1,0 +1,411 @@
+
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.NavBar {
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+}
+
+/* Logo */
+.BrandName {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.BrandName span {
+    color: red; /* First letter in red */
+}
+
+/* Navigation Links (Aligned to Right) */
+.NavLinks {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding-right: 40px;
+    margin-left: auto; /* Moves the menu items to the right */
+}
+
+.NavLinks a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.NavLinks a:hover {
+    color: rgb(190, 186, 186);
+}
+
+/* Hamburger menu (Hidden on Large Screens) */
+.MenuIcon {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Home Section */
+.HomeSection {
+    width: 100%;
+    height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.HomePage {
+    color: white;
+    position: static;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.HomePage .ui {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.HomePage .name {
+    font-size: 50px;
+}
+
+.HomePage .name span {
+    color: red;
+}
+
+.HomePage .state {
+    font-size: 50px;
+}
+
+/* Home Image */
+.HomeIMG img {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* About Section */
+#about {
+    background-color: rgb(5, 5, 5);
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.AboutContainer {
+    max-width: 800px;
+    margin: auto;
+}
+
+h2, h3 {
+    color: red;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+a {
+    color: cyan;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Services Section */
+#services {
+    background-color: rgb(6, 6, 6);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h2 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+/* Services Container */
+.ServicesContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual Service Cards */
+.ServiceCard {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.ServiceCard:hover {
+    transform: translateY(-5px);
+}
+
+.ServiceCard img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.ServiceCard h3 {
+    color: red;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ServiceCard p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+
+/* Portfolio Section */
+#portfolio {
+    background-color: rgb(7, 7, 7);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h2 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+/* Portfolio Container */
+.PortfolioContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual Portfolio Cards */
+.PortfolioCard {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.PortfolioCard:hover {
+    transform: translateY(-5px);
+}
+
+.PortfolioCard img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.PortfolioCard h3 {
+    color: red;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.PortfolioCard p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+
+/* Contact Section */
+#contact {
+    background-color: rgb(8, 8, 8);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h2 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+/* Social Media Links */
+.SocialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.SocialLinks img {
+    width: 40px;
+    transition: transform 0.3s;
+}
+
+.SocialLinks img:hover {
+    transform: scale(1.2);
+}
+
+/* CV Download Button */
+.DownloadCV {
+    margin-bottom: 20px;
+}
+
+.cvButton {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cvButton:hover {
+    background-color: darkred;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.submitButton {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submitButton:hover {
+    background-color: darkred;
+}
+
+
+
+/* Responsive Design for Small Screens */
+@media screen and (max-width: 768px) {
+    /* Navbar */
+    .NavBar{
+        position: relative;
+    }
+
+    .NavLinks {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        background-color: black;
+        text-align: center;
+    }
+
+    .NavLinks.show {
+        display: flex;
+    }
+
+    .MenuIcon {
+        display: block;
+        right: 20px;
+        position: relative;
+    }
+
+    /* Home Section (Stack Text Above Image) */
+    .HomeSection {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .HomePage {
+        top: 0;
+        left: 0;
+        position: relative;
+    }
+
+    .HomeIMG img {
+        width: 100%;
+        max-width: 400px;
+        margin-top: 20px;
+    }
+
+    .ServicesContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ServiceCard {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .PortfolioContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .PortfolioCard {
+        width: 90%;
+        max-width: 350px;
+    }
+    .SocialLinks {
+        flex-wrap: wrap;
+    }
+}

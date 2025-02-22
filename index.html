@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My-Portfolio</title>
+  <link rel="stylesheet" href="Portfolio.css">
+</head>
+
+<body style="background-color: black;">
+
+  <nav class="NavBar">
+    <div class="BrandName"><span>M</span>anmay.</div>
+    <div class="MenuIcon" onclick="toggleMenu()">☰</div>
+    <ul class="NavLinks" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="HomeSection" id="home">
+    <div class="HomePage">
+      <div class="ui"></div>
+      <div class="name"></div>
+      <div class="state"></div>
+
+
+      <p class="typing-placeholder"></p>
+
+    </div>
+    <div class="HomeIMG">
+      <img src="./image/ProfileIMG.png" alt="Profile Image">
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="AboutContainer">
+      <h2>About Me</h2>
+      <p>Hello! I'm <span class="highlight">Manmay Rawal</span>, a passionate <strong>Full-Stack Web
+          Developer</strong> skilled in
+        <strong>MERN stack (MongoDB, Express.js, React.js, Node.js)</strong>. I specialize in building
+        <em>responsive, high-performance web applications</em> with a focus on <strong>clean code, user
+          experience, and scalability</strong>.
+      </p>
+
+      <p>I recently graduated from <strong>NIST University, Berhampur</strong> and am currently enhancing my
+        skills at <strong>JSPIDER</strong>,
+        learning <strong>JavaScript, React.js, Express.js, MongoDB, and SQL</strong>.
+      </p>
+
+      <h3>Technical Skills:</h3>
+      <ul>
+        <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React.js</li>
+        <li><strong>Backend:</strong> Node.js, Express.js</li>
+        <li><strong>Database:</strong> MongoDB, SQL</li>
+        <li><strong>Other:</strong> REST APIs, Authentication (Email OTP Login), Responsive UI Design</li>
+      </ul>
+
+      <h3>Contact Information:</h3>
+      <p>📍 <strong>Location:</strong> Bengaluru, Karnataka</p>
+      <p>📧 <strong>Email:</strong> <a href="mailto:manmayrawal406@gmail.com">manmayrawal406@gmail.com</a></p>
+      <p>📞 <strong>Phone:</strong> <a href="tel:+917974334090">7974334090</a></p>
+
+      <p>I'm open to <strong>collaborations, internships, and full-time opportunities</strong>.
+        Let's build something amazing together! 🚀</p>
+    </div>
+  </section>
+
+
+
+  <section id="services">
+    <h2>My Services</h2>
+    <div class="ServicesContainer">
+      <!-- Web Development Card -->
+      <div class="ServiceCard">
+        <img src="./image/web-Developer.webp" alt="Web Development">
+        <h3>Web Development</h3>
+        <p>I create high-performance, responsive websites using modern technologies like React.js, HTML, CSS,
+          and JavaScript.</p>
+      </div>
+
+      <!-- UI/UX Design Card -->
+      <div class="ServiceCard">
+        <img src="./image/UIdesigen.jpg" alt="UI/UX Design">
+        <h3>UI/UX Design</h3>
+        <p>I focus on user-friendly and interactive UI designs that provide a great experience for users.</p>
+      </div>
+
+      <!-- Backend Development Card -->
+      <div class="ServiceCard">
+        <img src="./image/Backend.webp" alt="Backend Development">
+        <h3>Backend Development</h3>
+        <p>Building robust and scalable backend systems using Node.js, Express.js, and MongoDB.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="portfolio">
+    <h2>My Portfolio</h2>
+    <div class="PortfolioContainer">
+      <!-- CRM System -->
+      <div class="PortfolioCard">
+        <img src="./image/crm.png" alt="CRM System">
+        <h3>CRM System</h3>
+        <p>A Customer Relationship Management system built with React.js, Node.js, and MongoDB for efficient client
+          management.</p>
+      </div>
+
+      <!-- Weather App -->
+      <div class="PortfolioCard">
+        <img src="./image/Weather App.png" alt="Weather App">
+        <h3>Weather App</h3>
+        <p>A real-time weather application fetching live data from APIs, providing accurate forecasts with a simple UI.
+        </p>
+      </div>
+
+      <!-- Shopy-Shop -->
+      <div class="PortfolioCard">
+        <img src="./image/shopy-shop.png" alt="Shopy-Shop">
+        <h3>Shopy-Shop</h3>
+        <p>An e-commerce platform with product listings, authentication, and secure payments using MERN stack.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+
+    <!-- Social Media Links -->
+    <div class="SocialLinks">
+      <a href="mailto:manmayrawal406@gmail.com">
+        <img src="./image/gmail.png" alt="Email">
+      </a>
+      <a href="https://www.facebook.com/your-profile" target="_blank">
+        <img src="./image/facebook-new.png" alt="Facebook">
+      </a>
+      <a href="https://www.instagram.com/your-profile" target="_blank">
+        <img src="./image/Instagram.png" alt="Instagram">
+      </a>
+      <a href="https://www.linkedin.com/in/manmay-rawal-b00a2b30a/" target="_blank">
+        <img src="./image/linkedin.webp" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/Manmay-Rawal" target="_blank">
+        <img src="./image/github.png" alt="GitHub">
+      </a>
+    </div>
+
+    <!-- CV Download Button -->
+    <div class="DownloadCV">
+      <a href="./cv/Cover_Letter_Manmay_Rawal.pdf" download class="cvButton">Download CV</a>
+    </div>
+    <div class="DownloadResume">
+      <a href="./cv/Resume.pdf" download class="cvButton">Download Resume</a>
+    </div>
+
+    <!-- Contact Form -->
+    <form id="contactForm">
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="submitButton">Submit</button>
+    </form>
+  </section>
+
+
+
+  <script src="Portfolio.js"></script>
+</body>
+
+</html>
