@@ -222,6 +222,7 @@ h2 {
 /* Individual Portfolio Cards */
 .PortfolioCard {
     background-color: #1a1a1a;
+    cursor: pointer;
     border-radius: 10px;
     padding: 20px;
     width: 300px;
