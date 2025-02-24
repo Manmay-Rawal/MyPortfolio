@@ -3,7 +3,7 @@ function toggleMenu() {
   nav.classList.toggle("show");
 }
 
-document.querySelector(".weatherApp").addEventListener("click", function() {
+document.getElementById(".weatherApp").addEventListener("click", function() {
   window.open("https://manmay-rawal.github.io/Weather-App/", "_blank");
 });
 
