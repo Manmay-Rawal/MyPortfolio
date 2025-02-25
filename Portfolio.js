@@ -3,8 +3,12 @@ function toggleMenu() {
   nav.classList.toggle("show");
 }
 
-document.getElementById("WeatherApp").addEventListener("click", function() {
+document.getElementById("WeatherApp").addEventListener("click", function () {
   window.open("https://manmay-rawal.github.io/Weather-App/", "_blank");
+});
+
+document.getElementById("ShopyShop").addEventListener("click", function () {
+  window.open("https://shopy-shop-bsmy.onrender.com/", "_blank");
 });
 
 
@@ -70,7 +74,7 @@ let index = 0;
 
 function typeEffect() {
   if (index < text.length) {
-    placeholderElementUi.textContent += text.charAt(index);    
+    placeholderElementUi.textContent += text.charAt(index);
     index++;
     setTimeout(typeEffect, 100); // Adjust speed
   } else {
