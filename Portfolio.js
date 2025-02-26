@@ -11,7 +11,9 @@ document.getElementById("ShopyShop").addEventListener("click", function () {
   window.open("https://shopy-shop-bsmy.onrender.com/", "_blank");
 });
 
-
+document.getElementById("CRMwebsite").addEventListener("click",function(){
+  window.open("https://crmwebsite-ww7w.onrender.com/","_blank");
+})
 
 document.getElementById("contactForm").addEventListener("submit", function (event) {
   event.preventDefault();
