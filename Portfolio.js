@@ -66,7 +66,8 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-const text = "UI/UX Designer";
+
+const text = "Web Developer";
 const names = "Hi, I'm Manmay Rawal";
 const state = "From Bengaluru";
 const placeholderElementUi = document.querySelector(".ui");
@@ -87,7 +88,13 @@ function typeEffect() {
 let index2 = 0;
 function typeName() {
   if (index2 < names.length) {
-    placeholderElementName.textContent += names.charAt(index2);
+    if (index2 === 8) { // When "Manmay Rawal" starts
+      placeholderElementName.innerHTML += `<span class="red-text">${names.charAt(index2)}</span>`;
+    } else if (index2 > 8) {
+      document.querySelector(".red-text").innerHTML += names.charAt(index2);
+    } else {
+      placeholderElementName.innerHTML += names.charAt(index2);
+    }
     index2++;
     setTimeout(typeName, 100); // Adjust speed
   } else {
@@ -104,7 +111,7 @@ function typePlace() {
   } else {
     setTimeout(() => {
       placeholderElementUi.textContent = "";
-      placeholderElementName.textContent = "";
+      placeholderElementName.innerHTML = "";
       placeholderElementState.textContent = "";
       index = 0;
       index2 = 0;

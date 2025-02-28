@@ -339,6 +339,9 @@ textarea {
     background-color: darkred;
 }
 
+.red-text{
+    color: red;
+}
 
 
 /* Responsive Design for Small Screens */
