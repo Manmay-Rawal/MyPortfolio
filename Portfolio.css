@@ -475,18 +475,18 @@ textarea {
 }
 @media screen and (max-width: 450px) {
     #about{
-        padding: 0px;
+        padding: 20px 0px;
     }
     .HomeSection{
-        padding: 0px;
+        padding: 20px 0px;
     }
     #services {
-        padding: 0px;
+        padding: 20px 0px;
     }
     #portfolio {
-        padding: 0px;
+        padding: 20px 0px;
     }
     #contact {
-        padding: 0px;
+        padding: 20px 0px;
     }
 }
