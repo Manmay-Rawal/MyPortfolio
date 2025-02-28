@@ -15,6 +15,23 @@ document.getElementById("CRMwebsite").addEventListener("click",function(){
   window.open("https://crmwebsite-ww7w.onrender.com/","_blank");
 })
 
+
+// Contect me url
+document.getElementById("gmail").addEventListener("click",function(){
+  window.open("https://manmay-rawal.github.io/MyPortfolio/","_blank");
+})
+
+
+document.getElementById("linkedin").addEventListener("click",function(){
+  window.open("https://www.linkedin.com/in/manmay-rawal-b00a2b30a/","_blank");
+})
+
+
+document.getElementById("github").addEventListener("click",function(){
+  window.open("https://github.com/Manmay-Rawal","_blank");
+})
+
+
 document.getElementById("contactForm").addEventListener("submit", function (event) {
   event.preventDefault();
   // Get input values
