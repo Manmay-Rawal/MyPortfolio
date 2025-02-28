@@ -17,10 +17,6 @@ document.getElementById("CRMwebsite").addEventListener("click",function(){
 
 
 // Contect me url
-document.getElementById("gmail").addEventListener("click",function(){
-  window.open("https://manmay-rawal.github.io/MyPortfolio/","_blank");
-})
-
 
 document.getElementById("linkedin").addEventListener("click",function(){
   window.open("https://www.linkedin.com/in/manmay-rawal-b00a2b30a/","_blank");

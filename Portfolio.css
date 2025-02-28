@@ -375,6 +375,8 @@ textarea {
 }
 
 
+
+
 /* Responsive Design for Small Screens */
 @media screen and (max-width: 768px) {
     /* Navbar */
@@ -473,18 +475,18 @@ textarea {
 }
 @media screen and (max-width: 450px) {
     #about{
-        padding: 20px 0px;
+        padding: 0px;
     }
     .HomeSection{
-        padding: 20px 0px;
+        padding: 0px;
     }
     #services {
-        padding: 20px 0px;
+        padding: 0px;
     }
     #portfolio {
-        padding: 20px 0px;
+        padding: 0px;
     }
     #contact {
-        padding: 20px 0px;
+        padding: 0px;
     }
 }
