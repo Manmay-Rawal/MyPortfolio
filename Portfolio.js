@@ -73,6 +73,8 @@ const state = "From Bengaluru";
 const placeholderElementUi = document.querySelector(".ui");
 const placeholderElementName = document.querySelector(".name");
 const placeholderElementState = document.querySelector(".state");
+
+
 let index = 0;
 
 function typeEffect() {
@@ -122,3 +124,23 @@ function typePlace() {
 }
 
 typeEffect();
+
+
+
+window.onscroll = function () {
+  let scrollBtn = document.getElementById("scrollToTop");
+  
+  // Show button when user scrolls down 100px
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    scrollBtn.style.display = "block";
+  } else {
+    scrollBtn.style.display = "none";
+  }
+};
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
