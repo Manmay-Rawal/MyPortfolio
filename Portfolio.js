@@ -13,6 +13,10 @@ document.getElementById("ShopyShop").addEventListener("click", function () {
 
 document.getElementById("CRMwebsite").addEventListener("click",function(){
   window.open("https://crmwebsite-ww7w.onrender.com/","_blank");
+});
+
+document.getElementById("EmiCalculator").addEventListener("click",function(){
+  window.open("https://manmay-rawal.github.io/EMI-Calculator/","_blank");
 })
 
 
